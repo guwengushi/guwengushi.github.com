@@ -5,7 +5,6 @@ description: "使用SublimeText 编辑Markdown 文件并预览"
 category: tools
 tags: [tools]
 ---
-{% include JB/setup %}
 
 
 # 使用SublimeText 编辑Markdown 文件并预览 

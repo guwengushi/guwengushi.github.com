@@ -5,7 +5,7 @@ description: "Android privates lib添加java doc"
 category: tools
 tags: [tools]
 ---
-{% include JB/setup %}
+
 
 ## 在libs文件夹中添加对应properties 文件：      
 如：MapApiServices.jar.properties(MapApiServices.jar为jar文件名)，内容如下：    
