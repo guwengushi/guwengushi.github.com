@@ -4,7 +4,7 @@ title: "《菜根谭》名言，句句处世经典！"
 category : 
 tags : 
 ---
-![pic](./media/files/2016/04/13/640.png)
+![pic](media/files/2016/04/13/640.png)
 
 
 __厚德以积福，逸心以补劳，修道以解厄__
