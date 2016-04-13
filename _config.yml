@@ -9,19 +9,19 @@ atom-baseurl: "http://guwengushi.github.com"
 disqus: "hanlyjiang"
 
 navigations:
-  - title: Archive
+  - title: 所有文章
     class: fa fa-list-ul
     href: /archive.html
-  - title: Tags
+  - title: 分类
     class: fa fa-tags
     href: /tags.html
   - title: 关于
     class: fa fa-user
     href: /about.html
-  - title: Gallery
+  - title: 相册
     class: fa fa-film
     href: https://www.instagram.com/guwengushi/
-  - title: Subscribe
+  - title: 订阅
     class: fa fa-rss
     href: /atom.xml
 
