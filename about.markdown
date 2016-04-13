@@ -1,5 +1,5 @@
 ---
-title: about
+title: 关于古文故事
 layout: page
 ---
 

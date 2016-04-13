@@ -15,7 +15,7 @@ navigations:
   - title: Tags
     class: fa fa-tags
     href: /tags.html
-  - title: About
+  - title: 关于
     class: fa fa-user
     href: /about.html
   - title: Gallery
