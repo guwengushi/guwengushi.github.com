@@ -3,6 +3,7 @@ layout: post
 title: "《菜根谭》名言，句句处世经典！"
 category : 
 tags : 
+guid: 201604132219
 ---
 ![pic](/media/files/2016/04/13/640.png)
 

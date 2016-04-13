@@ -59,8 +59,35 @@ layout: default
     </span>
   </div>
 
-  <!-- BEGIN comment
+  {% endif %}
+  
+  <!-- comment start 
+  <hr/>
+  <div class="prev-next">
+  {% if page.next %}
+    <a href="{{ page.next.url }}" class="next" title="{{ page.next.title }}">下一篇 &rarr;</a>
+  {% endif %}
+  {% if page.previous %}
+    <a href="{{ page.previous.url }}" class="prev" title="{{ page.previous.title }}">&larr; 上一篇</a>
+  {% endif %}
+  </div>
+  Comment end -->
+  <div class="post">
+    <p><br/><br/></p>
+	
+	<blockquote>
+	<br/>    古文故事 | 关注微信号：<strong>guwengushi</strong> 
+	<br/>    回复“晚安”，每天给你一首小诗，祝好梦！ 
+	<br/>
+	</<blockquote>
+	<br/>
+	<p><img src="/media/files/logo/logo_qrcode.png"/></p>
+  </div>
+  
+  
+   
   <section class="comment">
+   <!-- Comment begin
   <div id="disqus_thread"></div>
   <script type="text/javascript">
       var disqus_shortname = '{{ site.disqus }}';
@@ -84,30 +111,38 @@ layout: default
       };
   </script>
   <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  </section>
-  END comment -->
-
-
-  {% endif %}
-  <hr/>
-  <div class="prev-next">
-  {% if page.next %}
-    <a href="{{ page.next.url }}" class="next" title="{{ page.next.title }}">下一篇 &rarr;</a>
-  {% endif %}
-  {% if page.previous %}
-    <a href="{{ page.previous.url }}" class="prev" title="{{ page.previous.title }}">&larr; 上一篇</a>
-  {% endif %}
-  </div>
-  <div class="post">
-    <p><br/><br/></p>
+    
+   Comment end -->
+   
+    <blockquote>
+    <h2>留言</h2>
+	<hr/>
+    <div id="disqus_thread">
+	<script>
+	/**
+	* RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+	* LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+	*/
 	
-	<blockquote>
-	<br/>    古文故事 | 关注微信号：<strong>guwengushi</strong> 
-	<br/>    回复“晚安”，每天给你一首小诗，祝好梦！ 
-	<br/>
-	</<blockquote>
-	<br/>
-	<p><img src="/media/files/logo/logo_qrcode.png"/></p>
+	var disqus_config = function () {
+	this.page.url = '{{site.url}}'; // Replace PAGE_URL with your page's canonical URL variable
+	this.page.identifier = '{{ page.guid }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+	};
+	
+	(function() { // DON'T EDIT BELOW THIS LINE
+	var d = document, s = d.createElement('script');
+
+	s.src = '//guwengushi.disqus.com/embed.js';
+
+	s.setAttribute('data-timestamp', +new Date());
+	(d.head || d.body).appendChild(s);
+	})();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+	
+  </section>
   </div>
+  </blockquote>
+  
   
 </article>
