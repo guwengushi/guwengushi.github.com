@@ -1,12 +1,12 @@
 markdown: rdiscount
 highlighter: pygments
 permalink: /:year/:month/:day/:title.html
-name: "rusty shutter"
+name: "hanly jiang"
 markdown: rdiscount
 
-author: "wayne"
-atom-baseurl: "http://lhzhang.com"
-disqus: "gopherwood"
+author: "hanlyjiang"
+atom-baseurl: "http://hanlyjiang.github.io"
+disqus: "hanlyjiang"
 
 navigations:
   - title: Archive
@@ -20,8 +20,25 @@ navigations:
     href: /about.html
   - title: Gallery
     class: fa fa-film
-    href: http://foto.lhzhang.com
+    href: https://www.instagram.com/hanlyjiang/
   - title: Subscribe
     class: fa fa-rss
     href: /atom.xml
+	
+	
+  # Settings for analytics helper
+  # Set 'provider' to the analytics provider you want to use.
+  # Set 'provider' to false to turn analytics off globally.
+  #        
+  analytics :
+    provider : google 
+    google : 
+        tracking_id : 'UA-123-12'
+    getclicky :
+      site_id : 
+    mixpanel :
+        token : '_MIXPANEL_TOKEN_'
+    piwik :
+        baseURL : 'myserver.tld/piwik' # Piwik installation address (without protocol)
+        idsite : '1'                   # the id of the site on Piwik
 
