@@ -57,7 +57,3 @@ OK,搞定，平常做笔记，写文章什么的就很方便了。
 [link2]: http://www.oschina.net/translate/20-powerful-sublimetext-plugins
 [link3]: http://www.imjeff.cn/blog/146/
 
-
-***********************
-Author: <hanlyjiang@outlook.com>       
-Date: 2015/04/25       

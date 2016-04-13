@@ -17,6 +17,3 @@ tags: [tools]
 
 
 
-***********************
-Author: <hanlyjiang@outlook.com>       
-Date: 2015/09/12       
