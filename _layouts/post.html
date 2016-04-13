@@ -89,6 +89,14 @@ layout: default
 
 
   {% endif %}
+  <div class="prev-next">
+  {% if page.next %}
+    <a href="{{ page.next.url }}" class="next" title="{{ page.next.title }}">下一篇 &rarr;</a>
+  {% endif %}
+  {% if page.previous %}
+    <a href="{{ page.previous.url }}" class="prev" title="{{ page.previous.title }}">&larr; 上一篇</a>
+  {% endif %}
+  </div>
   <div class="post">
     <p><br/><br/></p>
 	
