@@ -36,10 +36,7 @@ layout: default
   <section class="post">
   {{ content }}
   </section>
-  
-  
- 
-	{% if page.guid %}
+
   <div class="divider">
     <span>
     {% if page.previous %}
@@ -48,10 +45,12 @@ layout: default
     <i class="fa fa-circle"></i>
     {% endif %}
     </span>
-    
+	
+	
+    {% if page.guid %}
     <span><a href="javascript:leave_comment();" id="leave_comment_link"><i class="fa fa-comment-o"></i></a></span>
     <span><a href="javascript:collapse_comment();" id="collapse_comment_link" style="display:none;"><i class="fa fa-chevron-up"></i></a></span>
-    
+    {% endif %}
 
     <span>
     {% if page.next %}
@@ -61,25 +60,12 @@ layout: default
     {% endif %}
     </span>
   </div>
-
-	{% endif %}
-
-  <div class="post">
-    <p><br/><br/></p>
-	
-	<blockquote>
-	<br/>    古文故事 | 关注微信号：<strong>guwengushi</strong> 
-	<br/>    回复“晚安”，每天给你一首小诗，祝好梦！ 
-	<br/>
-	</<blockquote>
-	<br/>
-	<p><img src="/media/files/logo/logo_qrcode.png"/></p>
-  </div>
- 
-
-  <section class="comment">
-  <div id="disqus_thread">
+  
+   {% if page.guid %}
+   <section class="comment">
   <blockquote>
+  <div id="disqus_thread">
+  
   <script type="text/javascript">
       var disqus_shortname = '{{ site.disqus }}';
       var disqus_identifier = '{{ page.guid }}';
@@ -101,9 +87,23 @@ layout: default
       };
   </script>
   <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  </blockquote>
-  </div>
-  </section>
   
+  </div>
+  </blockquote>
+  </section>
+  {% endif %}
+
+  <div class="post">
+    <p><br/><br/></p>
+	
+	<blockquote>
+	<br/>    古文故事 | 关注微信号：<strong>guwengushi</strong> 
+	<br/>    回复“晚安”，每天给你一首小诗，祝好梦！ 
+	<br/>
+	</<blockquote>
+	<br/>
+	<p><img src="/media/files/logo/logo_qrcode.png"/></p>
+  </div>
+ 
   
 </article>
