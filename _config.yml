@@ -6,7 +6,7 @@ markdown: rdiscount
 
 author: "古文故事"
 atom-baseurl: "http://guwengushi.github.com"
-disqus: "古文故事"
+disqus: "guwengushi"
 
 navigations:
   - title: 所有文章
