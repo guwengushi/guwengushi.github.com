@@ -24,18 +24,4 @@ navigations:
   - title: Subscribe
     class: fa fa-rss
     href: /atom.xml
-    
-    
-comments :
-    provider : disqus
-    disqus :
-      short_name : hanlyjiang
-    livefyre :
-      site_id : 123
-    intensedebate :
-      account : 123abc
-    facebook :
-      appid : 123
-      num_posts: 5
-      width: 580
-      colorscheme: light
+
